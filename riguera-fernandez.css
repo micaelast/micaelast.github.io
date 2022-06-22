@@ -1,0 +1,62 @@
+6SA-TECNOLOGIA-1ºT
+6SA (2022)
+Web Mantenimiento&Windows10
+Heidy Fabiola Mancilla Zubieta
+•
+13 jun
+HACER
+•
+19/35
+19 puntos de 35
+Fecha de entrega: 13 jun, 17:00
+Adjunta las páginas web y las hojas de estilo que realizaste hoy
+Comentarios de la clase
+Tu trabajo
+Calificado
+
+preventivo-bpfg-fmro.html
+HTML
+
+riguera-fernandez.css
+Hoja de estilo
+
+windows-bpfg-fmro.html
+HTML
+1 comentario privado
+
+Fernanda Micaela Riguera Omonte13 jun
+Brenda Fernández 
+Micaela Riguera 
+
+body{
+    background-color: rgb(151, 126, 150);
+    }
+
+    h1{
+        font-family: 'Homemade Apple', cursive;
+        font-size: 69px;
+        text-align: center;
+        color: rgb(153, 97, 243);
+        text-shadow: 6px 6px 5px rgb(54, 17, 71);
+    }
+
+    img{
+        width: 90%;
+        height: 150px;
+        border: 5px dotted rgb(128, 63, 156);
+        
+    } 
+
+
+    .pasos{
+        background-color: rgb(209, 181, 236);
+        width: 100vw;
+        font-family: 'Fascinate Inline', cursive;
+        color: rgb(65, 115, 119);
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto);
+    }
+
+    
