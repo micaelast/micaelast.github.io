@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://s1.1zoom.me/b5050/544/Keyboard_Synthwave_562760_2560x1440.jpg);
+    background-size: 100%;
+    
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 50px;
+    margin-top: 270px;
+    text-shadow: 6px 5px 4px rgb(136, 171, 171);
+
+    
+}
+
+.colegio{
+    color: white;
+    text-align: center;
+    font-family: 'Skranji', cursive;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nombre{
+    color: white;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.micaela{
+    color: rgb(139, 248, 219);
+    text-align: center;
+    font-family: 'Skranji', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-shadow: 5px 5px 4px rgb(168, 197, 218);
+}
+
+.brenda{
+    color: rgb(178, 101, 172);
+    text-align: center;
+    font-family: 'Skranji', cursive;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-shadow: 5px 5px 4px rgb(240, 235, 142);
+}
