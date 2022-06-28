@@ -4,7 +4,8 @@ background-repeat: no-repeat;
 background-size: 100%;
 }
 .cole{
-background-color: orangered;
+background: linear-gradient(80deg,green, white, green);
+color: purple;
 width: 100%;
 margin: auto;
 display: grid;
@@ -19,7 +20,7 @@ font-family: 'Fascinate', cursive;
 position: absolute;
 top: 13%;
 right: 33%;
-color: orangered;
+color: purple;
 justify-items: center;
 align-items: center;
 font-size: 30px;
@@ -30,7 +31,7 @@ text-align: center;
     position: absolute;
     bottom: 10%;
     right: 35%;
-    color: orangered;
+    color: purple;
     justify-items: center;
     align-items: center;
     font-size: 30px;
@@ -68,7 +69,7 @@ top: 70%;
         opacity: 80%;
         font-size: 20px;
         font-family: 'Fascinate', cursive;
-        color: orangered;
+        color: purple
     }
 
     .i img{
