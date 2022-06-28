@@ -1,0 +1,88 @@
+body{
+background-color: black;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.cole{
+background-color: orangered;
+width: 100%;
+margin: auto;
+display: grid;
+height: 100px;
+opacity: 80%;
+font-size: 60px;
+text-align: center;
+align-items: center;
+font-family: 'Fascinate', cursive;
+}
+.pregunta{
+position: absolute;
+top: 13%;
+right: 33%;
+color: orangered;
+justify-items: center;
+align-items: center;
+font-size: 30px;
+font-family: 'Fascinate';
+text-align: center;
+}
+.enlace{
+    position: absolute;
+    bottom: 10%;
+    right: 35%;
+    color: orangered;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Fascinate';
+    text-align: center;
+
+}
+.uno{
+border: 7px solid white;
+color: white;
+font-size: 40px;
+text-align: center; 
+position: absolute;
+width: 18%;
+left: 20%;
+top: 70%;
+}
+
+.dos{
+    border: 7px solid white;
+    color: white;
+    font-size: 40px;
+    text-align: center; 
+    position: absolute;
+    width: 18%;
+    right: 20%;
+    top: 70%;
+    }
+    .nombre{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        width: -100px;
+        bottom: 0px;
+        opacity: 80%;
+        font-size: 20px;
+        font-family: 'Fascinate', cursive;
+        color: orangered;
+    }
+
+    .i img{
+    position: absolute;
+        height: 150pt;
+        width: 150pt;
+        left: 24%;
+        top: 40%;  
+    }
+
+    .u img{
+        position: absolute;
+            height: 150pt;
+            width: 150pt;
+            right: 24%;
+            top: 40%;  
+        }

@@ -1,0 +1,223 @@
+.cont{ font-family: 'Alfa Slab One', cursive;
+    font-family: 'Archivo', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #0011BF;
+}
+.top{
+    margin: auto;
+    display: grid;
+    background-color: #0011BF;
+    width: 100%;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(2,120px);
+    grid-template-areas:"inst inst inst inst"
+                        "win office vs nav";
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.instop{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    justify-self: center;
+    align-self: center;
+    grid-area: inst;
+}
+.wintop{
+    border-radius: 10%;
+    border: 2px solid white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-area: win;
+    justify-self: center;
+    align-self: center;
+}
+.officetop{
+    border-radius: 10%;
+    border: 2px solid white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-area: office;
+    justify-self: center;
+    align-self: center;
+}
+.vstop{
+    border-radius: 10%;
+    border: 2px solid white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-area: vs;
+    justify-self: center;
+    align-self: center;
+}
+.navtop{
+    border-radius: 10%;
+    border: 2px solid white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-area: nav;
+    justify-self: center;
+    align-self: center;
+}
+.mid{
+    display: grid;
+    margin: auto;
+    background-image: url(MAN.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 680px;
+    grid-template-columns: repeat(1,800px);
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas:"instmid"
+                        "textomid"
+                        "link";
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+.instwin{
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 130px;
+    font-size: 50px;
+    grid-area: instmid;
+    justify-self: center;
+    align-self: center;
+}
+.textmid{
+    margin-top: 100px;
+    font-size: 25px;
+    grid-area: link;
+    justify-self: center;
+    align-self: center;
+}
+.pasosmid{
+    font-size: 30px;
+    grid-area: textomid;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.bottom{
+    justify-content: center;
+    align-content: center;
+    background-color: #0011BF;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(1,400px);
+    grid-template-areas:"ofiimgg vsimgg navimgg";
+}
+.offimg{
+    grid-area: ofiimgg;
+    background-image: url(lim.jpg);
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+    align-self: center;
+}
+.vsimg{
+    background-image: url(manpa.jpg);
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+    align-self: center;
+    grid-area: vsimgg;
+}
+.navimg{
+    background-image: url(cui.jpg    );
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+    align-self: center;
+    grid-area: navimgg;
+}
+.textofi{
+    opacity: 0%;
+}
+.offimg:hover{
+    background: #0011BF;
+    border: 2px double white;
+}
+.textofi:hover{
+    opacity: 100%;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.textovs{
+    opacity: 0%;
+}
+.vsimg:hover{
+    background: #0011BF;
+    border: 2px double white;
+}
+.textovs:hover{
+    opacity: 100%;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.textonav{
+    opacity: 0%;
+}
+.navimg:hover{
+    background: #0011BF;
+    border: 2px double white;
+}
+.textonav:hover{
+    opacity: 100%;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.pablitito{
+    width: 100%;
+    background-color: #0011BF;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: 300px 100px;
+    grid-template-areas:"pablo pablo pablo"
+                        "nada nada nada";
+    justify-content: center;
+    align-content: center;
+                        
+}
+.pablodos{
+    justify-content: center;
+    align-content: center;
+    background-image: url(pablowin.jpg);
+    background-repeat: no-repeat;
+    grid-area: pablo;
+}
+.pablos{
+    opacity: 0%;
+}
+.pablodos:hover{
+    background: #0011BF;
+    border: 2px double #1e1e5d;
+}
+.pablos:hover{
+    opacity: 100%;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
